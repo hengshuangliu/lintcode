@@ -101,45 +101,6 @@ class Solution {
 	}	
 };
 
-/**
- * Definition of TreeNode:
- * class TreeNode {
- * public:
- *     int val;
- *     TreeNode *left, *right;
- *     TreeNode(int val) {
- *         this->val = val;
- *         this->left = this->right = NULL;
- *     }
- * }
- * Example of iterate a tree:
- * BSTIterator iterator = BSTIterator(root);
- * while (iterator.hasNext()) {
- *    TreeNode * node = iterator.next();
- *    do something for node
- */
- 
-//设计实现一个带有下列属性的二叉查找树的迭代器：
-//元素按照递增的顺序被访问（比如中序遍历）
-//next()和hasNext()的询问操作要求均摊时间复杂度是O(1)
-class BSTIterator {
-public:
-    //@param root: The root of binary tree.
-    BSTIterator(TreeNode *root) {
-        // write your code here
-    }
-
-    //@return: True if there has next node, or false
-    bool hasNext() {
-        // write your code here
-    }
-    
-    //@return: return next node
-    TreeNode* next() {
-        // write your code here
-    }
-};
-
 int main() {
 
 	return EXIT_SUCCESS;
